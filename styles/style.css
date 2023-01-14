@@ -253,6 +253,68 @@ height: 475px;
 /* products end */
   
 
-/* ................................
-..........media queri............
-................................. */
+ /* ................................ */
+/* ..........media queri............ */
+/* .................................  */
+
+
+
+
+/* small device */
+@media screen and (max-width: 576px) {
+    .header{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    
+    .ul-container-right{
+        display: none;
+    }
+    .header-left{
+        justify-content: space-between;
+    }
+    .influencer{
+        margin-left: 30px;
+        margin-right: 20px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .market-place{
+        margin-left: 30px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 10px;
+
+    }
+    .popular{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .popular-collection{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .collection-container{
+        width: 100%;
+    }
+    .featured{
+        margin-left: 30px;
+        margin-right: 20px; 
+        flex-direction: column-reverse; 
+    }
+}
+/* .............end small device */
+
+
+/* /* large device  */
+
+
+@media screen and (min-width: 577px) {
+    .hidden{
+        display: none;
+    }
+    .header{
+        margin-left: 120px;
+    }
+}
